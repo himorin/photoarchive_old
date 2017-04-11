@@ -1,0 +1,3 @@
+[submodule "pymagic"]
+	path = pymagic
+	url = https://github.com/ahupp/python-magic.git
