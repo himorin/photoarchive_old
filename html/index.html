@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Photo archive display</title>
+<link rel="stylesheet" media="all" href="photoarchive.css" />
+<script type="text/javascript" src="photoarchive.js"></script>
+</head>
+<body onload="DoInitialize()">
+<div class="header">
+  <div><p id="title">Photo Archive Display System (REQURES JavaScript!)</p></div>
+</div>
+<div class="content">
+  <div class="main">
+    <div class="main-content" id="photoview">
+      (No album has selected)
+    </div>
+  </div>
+  <aside class="side">
+    <nav class="side-nav">
+      <ul class="side-nav-menu" id="menu">
+      </ul>
+    </nav>
+  </aside>
+</div>
+<div id="img-overlay">
+  <div class="img-back"></div>
+  <div class="img-orig" onclick="DisplayHide()"><img src="" id="img-overlay-src" /></div>
+</div>
+</body>
+</html>
